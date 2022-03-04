@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="employee">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="id" type="xs:nonNegativeInteger"/>
+      <xs:element name="first_name" type="xs:string"/>
+      <xs:element name="last_name" type="xs:string"/>
+      <xs:element name="gender" type="xs:string"/>
+      <xs:element name="portfolio" type="xs:string"/>
+      <xs:element name="salary" type="xs:nonNegativeInteger"/>
+      <xs:element name="SkillSet" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
